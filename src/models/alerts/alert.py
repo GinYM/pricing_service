@@ -1,6 +1,6 @@
 import uuid
 import time
-import constants as AlertConstants
+import src.models.alerts.constants as AlertConstants
 import requests
 from src.common.database import Database
 from src.models.items.item import Item

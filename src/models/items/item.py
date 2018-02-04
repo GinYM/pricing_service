@@ -3,7 +3,7 @@ import uuid
 import requests
 from bs4 import BeautifulSoup
 import re
-import constants as ItemConstants
+import src.models.items.constants as ItemConstants
 from src.common.database import Database
 from src.models.stores.store import Store
 

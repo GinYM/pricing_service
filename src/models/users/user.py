@@ -2,7 +2,7 @@ import uuid
 import src.models.users.errors as UserErrors
 from src.common.database import Database
 from src.common.utils import Utils
-import constants as UserConstants
+import src.models.users.constants as UserConstants
 from src.models.alerts.alert import Alert
 
 
