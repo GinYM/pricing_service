@@ -5,4 +5,3 @@ ADMINS = frozenset([
     os.environ.get('ADMIN_EMAIL')
 ])
 
-#"jinyiming1996@gmail.com"
