@@ -15,8 +15,7 @@ class Item(object):
         store = Store.find_by_url(url)
         self.tag_name = store.tag_name
         self.query = store.query
-        self.price = price if price is not None else None
-        self.price = float(price)
+        self.price = float(price) if price is not None else None
         self._id = uuid.uuid4().hex if _id is None else _id
 
     def __repr__(self):
