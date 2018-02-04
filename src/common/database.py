@@ -1,13 +1,14 @@
 import pymongo
+import os
 
 
 class Database(object):
-    URL = "mongodb://127.0.0.1:27017"
+    URI = os.environ.get('MONGODB_URI')
     DATABASE = None
 
     @staticmethod
     def initialize():
-        client = pymongo.MongoClient(Database.URL)
+        client = pymongo.MongoClient(Database.URI)
         Database.DATABASE = client['fullstack']
 
     @staticmethod
