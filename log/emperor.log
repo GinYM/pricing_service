@@ -1,0 +1,529 @@
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Feb  5 21:09:52 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:09:52 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21754)
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x88bbd20
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 21752)
+Mon Feb  5 21:09:55 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:09:58 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21755)
+Mon Feb  5 21:10:01 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:10:04 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21756)
+Mon Feb  5 21:10:07 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 21:10:07 2018 - [emperor] unloyal bad behaving vassal found: /var/www/html/pricing_service/uwsgi.ini throttling it...
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:10:10 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21757)
+Mon Feb  5 21:10:13 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:10:16 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21758)
+Mon Feb  5 21:10:19 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:10:25 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21759)
+Mon Feb  5 21:10:28 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:10:34 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21760)
+Mon Feb  5 21:10:37 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:10:43 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21761)
+Mon Feb  5 21:10:46 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:10:55 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21762)
+Mon Feb  5 21:10:58 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:11:07 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21763)
+Mon Feb  5 21:11:10 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:11:19 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21764)
+Mon Feb  5 21:11:22 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:11:34 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21765)
+Mon Feb  5 21:11:37 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:11:49 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21766)
+Mon Feb  5 21:11:52 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:12:04 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21767)
+Mon Feb  5 21:12:07 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:12:22 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21768)
+Mon Feb  5 21:12:25 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:12:40 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21769)
+Mon Feb  5 21:12:43 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:12:58 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21770)
+Mon Feb  5 21:13:01 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:13:19 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21771)
+Mon Feb  5 21:13:22 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:13:40 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21772)
+Mon Feb  5 21:13:43 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:14:01 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21773)
+Mon Feb  5 21:14:04 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:14:25 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21774)
+Mon Feb  5 21:14:28 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:14:49 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21776)
+Mon Feb  5 21:14:52 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:15:13 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21778)
+Mon Feb  5 21:15:16 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:15:40 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21779)
+Mon Feb  5 21:15:43 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:16:07 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21780)
+Mon Feb  5 21:16:10 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:16:34 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21781)
+Mon Feb  5 21:16:37 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:17:04 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21790)
+Mon Feb  5 21:17:07 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:17:34 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21791)
+Mon Feb  5 21:17:37 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:18:04 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21792)
+Mon Feb  5 21:18:07 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:18:38 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21795)
+Mon Feb  5 21:18:41 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:19:11 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21797)
+Mon Feb  5 21:19:14 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:19:44 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21798)
+Mon Feb  5 21:19:47 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:20:20 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21799)
+Mon Feb  5 21:20:23 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:20:56 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21800)
+Mon Feb  5 21:20:59 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:21:32 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21801)
+Mon Feb  5 21:21:35 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:22:11 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21802)
+Mon Feb  5 21:22:14 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:22:50 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21803)
+Mon Feb  5 21:22:53 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:23:29 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21804)
+Mon Feb  5 21:23:32 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:24:11 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21807)
+Mon Feb  5 21:24:14 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:24:53 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21823)
+Mon Feb  5 21:24:56 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:25:35 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21843)
+Mon Feb  5 21:25:38 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:26:20 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21844)
+Mon Feb  5 21:26:23 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:27:05 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21845)
+Mon Feb  5 21:27:08 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:27:50 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21861)
+Mon Feb  5 21:27:53 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:28:38 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21863)
+Mon Feb  5 21:28:41 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:29:26 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21864)
+Mon Feb  5 21:29:29 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:30:14 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21867)
+Mon Feb  5 21:30:17 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:31:05 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21868)
+Mon Feb  5 21:31:08 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:31:56 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21872)
+Mon Feb  5 21:31:59 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+open("/var/www/html/pricing_servie/log/uwsgi.log"): No such file or directory [core/logging.c line 288]
+Mon Feb  5 21:32:47 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 21878)
+Mon Feb  5 21:32:50 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 21:33:42 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Mon Feb  5 21:33:42 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb  5 22:08:17 2018 - [emperor] reload the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 22:08:19 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb  5 22:09:43 2018 - [emperor] reload the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 22:09:44 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK EVOKED ***
+Mon Feb  5 22:18:25 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+Mon Feb  5 22:18:27 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+waiting for Emperor death...
+Mon Feb  5 22:18:28 2018 - The Emperor is buried.
+The Emperor has been buried (pid: 21753)
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Feb  5 22:18:29 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8eabd20
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 22299)
+Mon Feb  5 22:18:29 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Mon Feb  5 22:18:29 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb  5 22:20:51 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 22301)
+Mon Feb  5 22:20:54 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 22:20:58 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Mon Feb  5 22:20:58 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb  5 22:40:11 2018 - [emperor] reload the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 22:40:12 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb  5 22:40:18 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb  5 22:40:31 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 22373)
+Mon Feb  5 22:40:31 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 22:40:35 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Mon Feb  5 22:40:35 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb  5 22:41:27 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 22607)
+Mon Feb  5 22:41:30 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 22:41:30 2018 - [emperor] unloyal bad behaving vassal found: /var/www/html/pricing_service/uwsgi.ini throttling it...
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 22:41:34 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Mon Feb  5 22:41:34 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb  5 22:49:05 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 22677)
+Mon Feb  5 22:49:08 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+Mon Feb  5 22:49:11 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Mon Feb  5 22:49:11 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Tue Feb  6 00:40:38 2018 - [emperor] reload the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+Tue Feb  6 00:40:39 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+[emperor] *** RAGNAROK EVOKED ***
+Tue Feb  6 01:13:36 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Tue Feb  6 01:14:24 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8f50d20
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 23468)
+Tue Feb  6 01:14:25 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Tue Feb  6 01:14:25 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+[emperor] *** RAGNAROK EVOKED ***
+Tue Feb  6 01:17:05 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Tue Feb  6 01:17:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9f1bd20
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 23615)
+Tue Feb  6 01:17:10 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Tue Feb  6 01:17:10 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Tue Feb  6 08:17:30 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Tue Feb  6 08:37:16 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Tue Feb  6 08:48:42 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x874ed20
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 24365)
+Tue Feb  6 08:48:43 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Tue Feb  6 08:48:43 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Tue Feb  6 08:49:51 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb  6 08:51:22 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb  6 08:52:59 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb  6 08:55:05 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb  6 08:55:06 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb  6 09:08:19 2018 - [emperor] reload the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+Tue Feb  6 09:08:20 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 24367)
+Tue Feb  6 09:08:23 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+execvp(): No such file or directory [core/emperor.c line 1481]
+[emperor] binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+[emperor] is the uwsgi binary in your system PATH ?
+Tue Feb  6 09:08:23 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 24512)
+Tue Feb  6 09:08:26 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+execvp(): No such file or directory [core/emperor.c line 1481]
+[emperor] binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+[emperor] is the uwsgi binary in your system PATH ?
+Tue Feb  6 09:08:29 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 24513)
+Tue Feb  6 09:08:32 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+execvp(): No such file or directory [core/emperor.c line 1481]
+[emperor] binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+[emperor] is the uwsgi binary in your system PATH ?
+Tue Feb  6 09:08:35 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 24514)
+Tue Feb  6 09:08:38 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+Tue Feb  6 09:08:38 2018 - [emperor] unloyal bad behaving vassal found: /var/www/html/pricing_service/uwsgi.ini throttling it...
+execvp(): No such file or directory [core/emperor.c line 1481]
+[emperor] binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+[emperor] is the uwsgi binary in your system PATH ?
+Tue Feb  6 09:08:41 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 24515)
+Tue Feb  6 09:08:44 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+execvp(): No such file or directory [core/emperor.c line 1481]
+[emperor] binary path: /var/www/html/pricing_service/venv/bin/uwsgi
+[emperor] is the uwsgi binary in your system PATH ?
+Tue Feb  6 09:08:47 2018 - [emperor] curse the uwsgi instance /var/www/html/pricing_service/uwsgi.ini (pid: 24516)
+Tue Feb  6 09:08:50 2018 - [emperor] removed uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK EVOKED ***
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+Tue Feb  6 09:08:50 2018 - The Emperor is buried.
+The Emperor has been buried (pid: 24366)
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (32bit) on [Tue Feb  6 09:19:01 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8766ca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 24607)
+Tue Feb  6 09:19:02 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Tue Feb  6 09:19:02 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Tue Feb  6 09:19:41 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
