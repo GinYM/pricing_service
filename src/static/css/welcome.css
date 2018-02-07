@@ -1,0 +1,63 @@
+body {
+    background: url("../img/header.jpg");
+    background-size: auto;
+    overflow: hidden;
+}
+
+html, body{
+    height: 100%;
+
+}
+
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.info{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-75%);
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.info h1{
+    font-size: 5rem;
+    color: white;
+}
+
+.text-orange{
+    color: #F05F40;
+}
+
+hr {
+max-width: 50px;
+    border: 1px solid ;
+  border-color: #F05F40;
+    border-width: 3px;
+
+    margin-left: 0;
+    margin-top: 0;
+
+}
+
+.info p{
+    color: white;
+    font-weight:300;
+    font-size:1.15rem
+}
+
+

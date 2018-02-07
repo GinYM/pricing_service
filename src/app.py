@@ -11,14 +11,14 @@ def init_db():
     Database.initialize()
 
 
-@app.route('/')
+@app.route('/home')
 def home():
     return render_template('home.jinja2')
 
 
 @app.route('/')
 def hello_world():
-    return "Hello, world!"
+    return render_template('index.jinja2')
 
 from src.models.users.views import user_blueprint
 from src.models.alerts.views import alert_blueprint
