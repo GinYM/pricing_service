@@ -1,0 +1,49 @@
+{% extends "base.jinja2" %}
+{% block content %}
+    <div class="container post_form">
+
+
+        <h2>
+            <div>
+                <span class="span-test">{{ blog_title }}</span>
+                {% if session['email'] %}
+                    <div class="pull-right">
+                <span class="span-button text-right">
+            <a href="{{ url_for('blogs.new_posts',blog_id=blog_id) }}" class="text-right">
+
+                    <button class="btn btn-primary post_button text-right">New</button>
+
+            </a>
+                </span>
+
+                        <span class="span-button text-right">
+            <a href="{{ url_for('blogs.edit_posts',blog_id=blog_id) }}" class="text-right">
+
+                    <button class="btn btn-warning post_button text-right">Edit</button>
+
+            </a>
+                </span>
+                    </div>
+                {% endif %}
+
+
+            </div>
+        </h2>
+        <hr />
+
+        {% if posts|length > 0 %}
+            {% for post in posts %}
+                <div class="post-content">
+                    <h2 class="post-header">{{ post.title }}</h2>
+                    <p class="post-author">{{ post.author }} &bull; {{ post.date.strftime("%m-%d-%Y") }}</p>
+                    <div class="post-content">
+                        <p>{{ post.content |safe }}</p>
+                    </div>
+                </div>
+                <hr/>
+            {% endfor %}
+        {% else %}
+            <h4>There aren't any posts yet!</h4>
+        {% endif %}
+    </div>
+{% endblock %}

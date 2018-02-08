@@ -20,10 +20,17 @@ def home():
 def hello_world():
     return render_template('index.jinja2')
 
+
 from src.models.users.views import user_blueprint
 from src.models.alerts.views import alert_blueprint
 from src.models.stores.views import store_blueprint
+from src.models.abouts.views import about_blueprint
+from src.models.projects.views import projects_blueprint
+from src.models.blogs.views import blogs_blueprint
 
 app.register_blueprint(user_blueprint, url_prefix="/users")
 app.register_blueprint(alert_blueprint, url_prefix="/alerts")
 app.register_blueprint(store_blueprint, url_prefix="/stores")
+app.register_blueprint(about_blueprint, url_prefix="/abouts")
+app.register_blueprint(projects_blueprint, url_prefix="/projects")
+app.register_blueprint(blogs_blueprint, url_prefix="/blogs")

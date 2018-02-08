@@ -19,10 +19,8 @@ from src.common.database import Database
 #
 # i = Item(s.name, "https://www.adidas.com.cn/item/CQ2475")
 # p = i.load_price()
-# print(p)
-
 # result = Database.count("items", {"_id": "252ea1b122eb405db6efe61e88325703"})
-# print result
+
 
 result = time.localtime()
 print time.strftime("%m-%d-%Y %H:%M:%S", result)

@@ -16,7 +16,7 @@ def login_user():
         try:
             if User.is_login_valid(email, password):
                 session['email'] = email
-                return redirect(url_for(".user_alerts"))
+                return redirect(url_for("blogs.index"))
         except UserErrors.UserError as e:
             return e.message
 

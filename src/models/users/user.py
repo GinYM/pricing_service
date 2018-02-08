@@ -1,9 +1,13 @@
 import uuid
+
+import datetime
+
 import src.models.users.errors as UserErrors
 from src.common.database import Database
 from src.common.utils import Utils
 import src.models.users.constants as UserConstants
 from src.models.alerts.alert import Alert
+from src.models.blogs.blog import Blog
 
 
 class User(object):
@@ -51,7 +55,27 @@ class User(object):
 
     @classmethod
     def find_by_email(cls,email):
-        return cls(**Database.find_one(UserConstants.COLLECTION,{'email': email}))
+        result = Database.find_one(UserConstants.COLLECTION,{'email': email})
+        if result is None:
+            return None
+        else:
+            return cls(**result)
 
     def get_alerts(self):
         return Alert.find_by_email(self.email)
+
+    def new_blog(self, title, description, secret=0):
+        blog = Blog(author=self.email,
+                    title=title,
+                    description=description,
+                    author_id=self._id,
+                    secret=secret)
+        blog.save_to_mongo()
+
+    @staticmethod
+    def new_post(blog_id, title, content, date=datetime.datetime.utcnow()):
+        # title, content, date=datetime.datetime.utcnow()
+        blog = Blog.get_from_mongo(blog_id)
+        blog.new_post(title=title,
+                      content=content,
+                      date=date)
