@@ -35,7 +35,7 @@ h6 {
 }
 
 .info h1{
-    font-size: 5rem;
+    font-size: 6rem;
     color: white;
 }
 
@@ -46,18 +46,44 @@ h6 {
 hr {
 max-width: 50px;
     border: 1px solid ;
-  border-color: #F05F40;
-    border-width: 3px;
+    border-color: #F05F40;
+    border-width: 2px;
 
     margin-left: 0;
-    margin-top: 0;
+
 
 }
 
 .info p{
+    margin-top: 0px;
     color: white;
     font-weight:300;
-    font-size:1.15rem
+    font-size:1.5rem
 }
 
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #F05F40;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #ee4b28 !important;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
 
