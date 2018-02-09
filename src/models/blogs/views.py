@@ -2,11 +2,11 @@ from flask import Blueprint, render_template, request, json, url_for, redirect, 
 
 from src.common.database import Database
 from src.models.blogs.blog import Blog
-import os
 import src.models.users.decorators as users_decorator
 from src.models.blogs.post import Post
 from src.models.users.user import User
 import constants_post as PostConstant
+import src.website_config as config
 
 blogs_blueprint = Blueprint('blogs', __name__)
 
@@ -16,7 +16,8 @@ def index():
     if 'email' in session and session['email']:
         email = session['email']
     else:
-        email = os.environ.get("ADMIN_EMAIL").replace('\"', "")
+        email = config.ADMIN_EMAIL
+
 
     user = User.find_by_email(email)
     if user is None:

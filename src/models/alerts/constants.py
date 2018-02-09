@@ -1,7 +1,7 @@
-import os
+import src.website_config as config
 
-URL = os.environ.get('MAILGUN_URL')
-API_KEY = os.environ.get('MAILGUN_API_KEY')
-FROM = os.environ.get('MAILGUN_FORM')
+URL = config.MAILGUN_URL
+API_KEY = config.MAILGUN_API_KEY
+FROM = config.MAILGUN_FORM
 ALERT_TIMEOUT = 0
 COLLECTION = "alerts"

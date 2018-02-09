@@ -1,9 +1,10 @@
 import pymongo
-import os
+import src.website_config as config
 
 
 class Database(object):
-    URI = os.environ.get('MONGODB_URI').replace('\"',"")
+    URI = config.MONGODB_URI
+    #URI = os.environ.get('MONGODB_URI').replace('\"',"")
     DATABASE = None
 
     @staticmethod
