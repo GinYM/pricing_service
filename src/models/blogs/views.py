@@ -5,7 +5,7 @@ from src.models.blogs.blog import Blog
 import src.models.users.decorators as users_decorator
 from src.models.blogs.post import Post
 from src.models.users.user import User
-import constants_post as PostConstant
+import src.models.blogs.constants_post as PostConstant
 import src.website_config as config
 
 blogs_blueprint = Blueprint('blogs', __name__)
