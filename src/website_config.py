@@ -1,5 +1,0 @@
-MONGODB_URI="127.0.0.1:27017"
-ADMIN_EMAIL="jinyiming1996@gmail.com"
-MAILGUN_API_KEY="key-04d0c91bd0ea557dab06a79a70d280cf"
-MAILGUN_FORM="Mailgun Sandbox postmaster@sandbox8db935da6f6f4ff38cf522ccbfc82f55.mailgun.org"
-MAILGUN_URL="https://api.mailgun.net/v3/sandbox8db935da6f6f4ff38cf522ccbfc82f55.mailgun.org/messages"
