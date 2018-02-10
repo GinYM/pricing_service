@@ -1,22 +1,40 @@
 {% extends "base.jinja2" %}
 {% block content %}
-<div class = "container page-form">
-    <form id="new_post-form" action="{{ url_for('blogs.edit_post',post_id=post._id) }}" method="post">
-        <div class="form-group">
-            <label for="title">Title</label>
-            <input type="text" class="form-control" id="title" name="title" value="{{ post.title }}">
-        </div>
-        <div class="form-group">
-            <label for="content">Content</label>
-            <textarea type="text" id="editor" name="content" rows="40" cols="80" > {{ post.content }} </textarea>
+    <div class = "container page-form">
+        <form id="new_post-form" action="{{ url_for('blogs.edit_post',post_id=post._id) }}" method="post">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" name="title" value="{{ post.title }}">
+            </div>
+            <div class="form-group">
+                <label for="content">Content</label>
+                <textarea type="text" id="editor" name="content" rows="40" cols="80" > {{ post.content }} </textarea>
                 <script>
                     CKEDITOR.replace( 'editor',{
-                filebrowserImageUploadUrl: '/blogs/posts/new/ckupload/'
-            } );
-                </script>
-        </div>
+                            on :
+                                {
+                                    instanceReady : function( ev )
+                                    {
+                                        // Output paragraphs as <p>Text</p>.
+                                        this.dataProcessor.writer.setRules( 'p',
+                                            {
+                                                indent : false,
+                                                breakBeforeOpen : true,
+                                                breakAfterOpen : false,
+                                                breakBeforeClose : false,
+                                                breakAfterClose : true
+                                            });
+                                    }
+                                }
+                        }
 
-        <button type="submit" class="btn btn-dark" >Publish</button>
-    </form>
-</div>
+                        ,{
+                            filebrowserImageUploadUrl: '/blogs/posts/new/ckupload/'
+                        } );
+                </script>
+            </div>
+
+            <button type="submit" class="btn btn-dark" >Publish</button>
+        </form>
+    </div>
 {% endblock %}

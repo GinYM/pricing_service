@@ -12,8 +12,26 @@
                 <textarea type="text" id="editor" name="content" rows="40" cols="80"></textarea>
                 <script>
                     CKEDITOR.replace( 'editor',{
-                filebrowserImageUploadUrl: '/blogs/posts/new/ckupload/'
-            } );
+                            on :
+                                {
+                                    instanceReady : function( ev )
+                                    {
+                                        // Output paragraphs as <p>Text</p>.
+                                        this.dataProcessor.writer.setRules( 'p',
+                                            {
+                                                indent : false,
+                                                breakBeforeOpen : true,
+                                                breakAfterOpen : false,
+                                                breakBeforeClose : false,
+                                                breakAfterClose : true
+                                            });
+                                    }
+                                }
+                        }
+
+                        ,{
+                            filebrowserImageUploadUrl: '/blogs/posts/new/ckupload/'
+                        } );
                 </script>
 
             </div>
