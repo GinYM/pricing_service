@@ -35,7 +35,7 @@ class Blog(object):
         }
 
     def save_to_mongo(self):
-        Database.insert(collection=BlogsConstant.COLLECTION, data=self.json())
+        Database.update(collection=BlogsConstant.COLLECTION, criteria={'_id':self._id},objNew=self.json())
 
     @classmethod
     def get_from_mongo(cls, _id):

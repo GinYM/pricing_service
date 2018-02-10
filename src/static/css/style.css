@@ -46,12 +46,10 @@
 }
 
 .btn {
-    font-weight: 700;
-    height: 36px;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: default;
+  font-weight: 700;
+  border: none;
+  border-radius: 250px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .btn.btn-signin {

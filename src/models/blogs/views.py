@@ -7,6 +7,7 @@ from src.models.blogs.post import Post
 from src.models.users.user import User
 import src.models.blogs.constants_post as PostConstant
 import src.website_config as config
+import src.models.blogs.constants as BlogConstant
 
 blogs_blueprint = Blueprint('blogs', __name__)
 
@@ -34,13 +35,47 @@ def new_blog():
         user = User.find_by_email(session['email'])
         title = request.form['title']
         description = request.form['description']
-        if request.form['secret']:
+        if request.form.get('secret'):
             user.new_blog(title=title, description=description, secret=1)
         else:
             user.new_blog(title=title,description=description,secret=0)
         return redirect(url_for('.index'))
     else:
         return render_template('blogs/new_blog.jinja2')
+
+
+@blogs_blueprint.route('/edit_blogs')
+@users_decorator.require_login
+def edit_blogs():
+    email = session['email']
+    user = User.find_by_email(email)
+    blogs = Blog.find_by_author_id(user._id)
+    return render_template('blogs/edit_blogs.jinja2',email=email, blogs=blogs)
+
+
+@blogs_blueprint.route('/edit_blog/<string:blog_id>',methods=['GET','POST'])
+@users_decorator.require_login
+def edit_blog(blog_id):
+    blog = Blog.get_by_id(blog_id)
+    if request.method == 'GET':
+        return render_template('blogs/edit_blog.jinja2',blog=blog)
+    else:
+        blog.title = request.form['title']
+        blog.description = request.form['description']
+        if request.form.get('secret'):
+            blog.secret = 1
+        else:
+            blog.secret = 0
+        blog.save_to_mongo()
+        return redirect(url_for('.index'))
+
+
+@blogs_blueprint.route('/delete/<string:blog_id>',methods=['GET','POST'])
+@users_decorator.require_login
+def delete_blogs(blog_id):
+    Database.remove(collection=BlogConstant.COLLECTION,query={'_id':blog_id})
+    return redirect(url_for('.index'))
+
 
 
 @blogs_blueprint.route('/posts/<string:blog_id>')
