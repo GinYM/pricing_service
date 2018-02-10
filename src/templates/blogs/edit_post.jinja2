@@ -10,23 +10,8 @@
                 <label for="content">Content</label>
                 <textarea type="text" id="editor" name="content" rows="40" cols="80" > {{ post.content }} </textarea>
                 <script>
-                    CKEDITOR.replace( 'editor',{
-                            on :
-                                {
-                                    instanceReady : function( ev )
-                                    {
-                                        // Output paragraphs as <p>Text</p>.
-                                        this.dataProcessor.writer.setRules( 'p',
-                                            {
-                                                indent : false,
-                                                breakBeforeOpen : true,
-                                                breakAfterOpen : false,
-                                                breakBeforeClose : false,
-                                                breakAfterClose : true
-                                            });
-                                    }
-                                }
-                        }
+                    CKEDITOR.replace( 'editor'
+
 
                         ,{
                             filebrowserImageUploadUrl: '/blogs/posts/new/ckupload/'
