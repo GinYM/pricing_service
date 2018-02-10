@@ -35,3 +35,7 @@ class Database(object):
     @staticmethod
     def count(collection, query):
         return Database.DATABASE[collection].count(query)
+
+    @staticmethod
+    def sort_db(collection,query):
+        Database.DATABASE[collection].find().sort(query)

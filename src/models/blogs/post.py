@@ -1,5 +1,8 @@
 import uuid
 import datetime
+
+import pymongo
+
 from src.common.database import Database
 import src.models.blogs.constants_post as PostConstant
 
@@ -15,11 +18,13 @@ class Post(object):
 
     @staticmethod
     def replace_newline(content):
-        return content.replace("\n", "</p><p>")
+        #return content.replace("\r\n", "</p><p>")
+        return content
 
     @staticmethod
     def reverse_replace_newline(content):
-        return content.replace("</p><p>","\n")
+        #return content.replace("</p><p>","\r\n")
+        return content
 
     def save_to_mongo(self):
         Database.update(collection=PostConstant.COLLECTION, criteria={"_id":self._id},objNew=self.json())
@@ -41,4 +46,7 @@ class Post(object):
 
     @classmethod
     def from_blog(cls,blog_id):
-        return [cls(**post) for post in Database.find(collection=PostConstant.COLLECTION, query={"blog_id": blog_id})]
+        posts = Database.find(collection=PostConstant.COLLECTION, query={"blog_id": blog_id}).sort('date',pymongo.ASCENDING)
+        return [cls(**post) for post in posts]
+
+

@@ -2,13 +2,16 @@
 {% block content %}
     <div class="container post_form">
 
-
         <h2>
             <div>
                 <span class="span-test">{{ blog_title }}</span>
-
-
-
+                <div class="pull-right">
+                    <span class="span-button button-font" >
+                        <a href="{{ url_for('blogs.posts',blog_id=blog_id) }}" >
+                            <button class="btn btn-success post_button">Done</button>
+                        </a>
+                    </span>
+                </div>
             </div>
         </h2>
         <hr />
