@@ -5,3 +5,4 @@ Implemented web blog using Flask and deploy in Bnadwagon using Nginx and uwsgi. 
 - Project
 - Pricing Service
 
+The url is: http://67.209.181.254/home
