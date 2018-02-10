@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0477f34f-fa54-4198-94b3-13de79b0084c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" afterPath="$PROJECT_DIR$/src/app.py" />
-      <change beforePath="$PROJECT_DIR$/src/models/blogs/views.py" afterPath="$PROJECT_DIR$/src/models/blogs/views.py" />
-      <change beforePath="$PROJECT_DIR$/src/static/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/src/static/ckeditor/LICENSE.md" />
-      <change beforePath="$PROJECT_DIR$/src/static/ckeditor/README.md" afterPath="$PROJECT_DIR$/src/static/ckeditor/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/static/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/src/static/ckeditor/ckeditor.js" />
-      <change beforePath="$PROJECT_DIR$/src/static/ckeditor/ckeditor.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/style.css" afterPath="$PROJECT_DIR$/src/static/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blogs/edit_blogs.jinja2" afterPath="$PROJECT_DIR$/src/templates/blogs/edit_blogs.jinja2" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blogs/new_post.jinja2" afterPath="$PROJECT_DIR$/src/templates/blogs/new_post.jinja2" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blogs/posts.jinja2" afterPath="$PROJECT_DIR$/src/templates/blogs/posts.jinja2" />
-    </list>
+    <list default="true" id="0477f34f-fa54-4198-94b3-13de79b0084c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
