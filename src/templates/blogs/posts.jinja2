@@ -33,9 +33,10 @@
 
         {% if posts|length > 0 %}
             {% for post in posts %}
-                <div class="post-content">
+                <div>
                     <h2 class="post-header">{{ post.title }}</h2>
-                    <p class="post-author">{{ post.author }} &bull; {{ post.date.strftime("%m-%d-%Y") }}</p>
+                    <p class="post-author">{{ post.date.strftime("%m-%d-%Y") }}</p>
+
                     <div class="post-content">
                         <p>{{ post.content |safe }}</p>
                     </div>

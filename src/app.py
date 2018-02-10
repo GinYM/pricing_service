@@ -5,6 +5,9 @@ app = Flask(__name__)
 app.config.from_object('src.config')
 app.secret_key = "123"
 
+UPLOAD_FOLDER = app.root_path+'/static/upload'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 
 @app.before_first_request
 def init_db():
@@ -19,6 +22,7 @@ def home():
 @app.route('/')
 def hello_world():
     return render_template('index.jinja2')
+
 
 
 from src.models.users.views import user_blueprint

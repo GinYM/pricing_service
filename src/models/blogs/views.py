@@ -1,4 +1,9 @@
-from flask import Blueprint, render_template, request, json, url_for, redirect, session
+import os
+
+import datetime
+import random
+
+from flask import Blueprint, render_template, request, json, url_for, redirect, session, current_app, make_response
 
 from src.common.database import Database
 from src.models.blogs.blog import Blog
@@ -135,3 +140,41 @@ def delete_post(post_id):
     Database.remove(collection=PostConstant.COLLECTION, query={'_id':post_id})
     return redirect(url_for('.edit_posts',blog_id=blog_id))
 
+
+def gen_rnd_filename():
+    filename_prefix = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+    return '%s%s' % (filename_prefix, str(random.randrange(1000, 10000)))
+
+
+@blogs_blueprint.route('/posts/new/ckupload/', methods=['POST', 'OPTIONS'])
+@users_decorator.require_login
+def ckupload():
+    """CKEditor file upload"""
+    error = ''
+    url = ''
+    callback = request.args.get("CKEditorFuncNum")
+    if request.method == 'POST' and 'upload' in request.files:
+        fileobj = request.files['upload']
+        fname, fext = os.path.splitext(fileobj.filename)
+        rnd_name = '%s%s' % (gen_rnd_filename(), fext)
+        filepath = os.path.join(current_app.config.get('UPLOAD_FOLDER'), session['email'], rnd_name)
+        #print(filepath)
+        dirname = os.path.dirname(filepath)
+        if not os.path.exists(dirname):
+            try:
+                os.makedirs(dirname)
+            except:
+                error = 'ERROR_CREATE_DIR'
+        elif not os.access(dirname, os.W_OK):
+            error = 'ERROR_DIR_NOT_WRITEABLE'
+        if not error:
+            fileobj.save(filepath)
+            url = url_for('static', filename='%s/%s/%s' % ('upload', session['email'],rnd_name))
+    else:
+        error = 'post error'
+    res = """<script type="text/javascript"> 
+             window.parent.CKEDITOR.tools.callFunction(%s, '%s', '%s');
+             </script>""" % (callback, url, error)
+    response = make_response(res)
+    response.headers["Content-Type"] = "text/html"
+    return response

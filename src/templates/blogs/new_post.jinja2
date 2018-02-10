@@ -9,13 +9,11 @@
             <div class="form-group">
 
                 <label for="content">Content</label>
-                <textarea type="text" id="editor" name="content"></textarea>
+                <textarea type="text" id="editor" name="content" rows="40" cols="80"></textarea>
                 <script>
-                    ClassicEditor
-                        .create( document.querySelector( '#editor' ) )
-                        .catch( error => {
-                        console.error( error );
-                    } );
+                    CKEDITOR.replace( 'editor',{
+                filebrowserImageUploadUrl: '/blogs/posts/new/ckupload/'
+            } );
                 </script>
 
             </div>

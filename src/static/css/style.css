@@ -152,7 +152,7 @@
 
 .page-form {
     margin-top: 25px;
-    max-width: 480px;
+
 }
 
 .blog-font {
@@ -161,6 +161,16 @@
 
 .post-header, .post-author{
     text-align: center;
+}
+
+.post-header{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.post-author{
+    font-size: 17px;
+
 }
 
 .button-font{
@@ -195,10 +205,11 @@ p {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 120%;
 }
 
 .post-content p{
     text-indent: 2em;
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 130%;
 }
