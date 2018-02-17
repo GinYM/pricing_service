@@ -679,3 +679,375 @@ Fri Feb  9 01:15:48 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.
 Fri Feb  9 01:15:48 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
 Fri Feb  9 01:15:57 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
 Fri Feb  9 01:15:57 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Fri Feb  9 02:08:58 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Fri Feb  9 02:09:03 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8f95ca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 27071)
+Fri Feb  9 02:09:04 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Fri Feb  9 02:09:04 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Fri Feb  9 02:09:15 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Fri Feb  9 02:09:15 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Fri Feb  9 02:11:48 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Fri Feb  9 02:11:53 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x98b8ca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 27242)
+Fri Feb  9 02:11:53 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Fri Feb  9 02:11:54 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Fri Feb  9 02:12:01 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Fri Feb  9 02:12:02 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Fri Feb  9 02:12:33 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Fri Feb  9 03:22:45 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Feb 10 09:07:14 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Sat Feb 10 09:07:19 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9503ca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 27837)
+Sat Feb 10 09:07:19 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Sat Feb 10 09:07:19 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Sat Feb 10 09:08:40 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 09:08:40 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 09:08:52 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Feb 10 09:15:38 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Sat Feb 10 09:15:43 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x90fbca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 28107)
+Sat Feb 10 09:15:44 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Sat Feb 10 09:15:44 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Sat Feb 10 09:15:58 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 09:16:00 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 09:18:50 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 09:18:51 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 09:18:51 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Feb 10 10:23:39 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Sat Feb 10 10:23:44 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8ad8ca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 28382)
+Sat Feb 10 10:23:45 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Sat Feb 10 10:23:45 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Sat Feb 10 10:24:10 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 10:24:49 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 10:25:11 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 10:25:11 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Feb 10 10:34:35 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Sat Feb 10 10:34:40 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9daeca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 28607)
+Sat Feb 10 10:34:41 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Sat Feb 10 10:34:41 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Sat Feb 10 10:34:50 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 10:34:59 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 12:05:54 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 12:06:41 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 12:06:41 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 12:06:41 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 12:06:42 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Feb 10 21:26:05 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Sat Feb 10 21:26:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8fdaca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 28955)
+Sat Feb 10 21:26:11 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Sat Feb 10 21:26:11 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Sat Feb 10 21:28:39 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 21:28:39 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sat Feb 10 21:28:44 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sun Feb 11 02:37:26 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sun Feb 11 02:37:27 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sun Feb 11 02:37:27 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sun Feb 11 02:37:27 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Sun Feb 11 07:17:06 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Mon Feb 12 22:46:53 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Feb 12 22:46:58 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8da3ca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 29858)
+Mon Feb 12 22:46:58 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Mon Feb 12 22:46:58 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb 12 22:47:33 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Mon Feb 12 22:47:34 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Mon Feb 12 22:47:35 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Mon Feb 12 22:48:24 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Mon Feb 12 22:48:24 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Mon Feb 12 22:48:30 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Mon Feb 12 22:48:30 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Mon Feb 12 22:54:10 2018 - [emperor] stop the uwsgi instance /var/www/html/pricing_service/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Feb 12 22:54:15 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 05 February 2018 11:22:18
+os: Linux-4.10.4-1.el6.elrepo.i686 #1 SMP Sat Mar 18 11:05:18 EDT 2017
+nodename: host.localdomain
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/venv/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.4.5 (default, Dec 11 2017, 16:56:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pricing_service/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x83ddca0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 30024)
+Mon Feb 12 22:54:16 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini has been spawned
+Mon Feb 12 22:54:16 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is ready to accept requests
+Mon Feb 12 22:55:13 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Mon Feb 12 22:55:29 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb 13 04:17:56 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb 13 04:23:05 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb 13 04:23:06 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb 13 04:23:06 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb 13 08:33:17 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal
+Tue Feb 13 20:55:21 2018 - [emperor] vassal /var/www/html/pricing_service/uwsgi.ini is now loyal

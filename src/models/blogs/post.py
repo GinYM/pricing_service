@@ -8,13 +8,13 @@ import src.models.blogs.constants_post as PostConstant
 
 
 class Post(object):
-    def __init__(self, blog_id, title, content, author, date=datetime.datetime.utcnow(), _id=None):
+    def __init__(self, blog_id, title, content, author, date=None, _id=None):
         self._id = uuid.uuid4().hex if _id is None else _id
         self.author = author
         self.blog_id = blog_id
         self.title = title
         self.content = self.replace_newline(content)
-        self.date = date
+        self.date = datetime.datetime.utcnow() if date is None else date
 
     @staticmethod
     def replace_newline(content):
