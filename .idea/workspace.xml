@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0477f34f-fa54-4198-94b3-13de79b0084c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/models/profiles/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/models/profiles/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/static/js/register.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/templates/profiles/error.jinja2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/templates/profiles/profile.jinja2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/templates/users/errors.jinja2.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/app.py" afterPath="$PROJECT_DIR$/src/app.py" />
-      <change beforePath="$PROJECT_DIR$/src/common/utils.py" afterPath="$PROJECT_DIR$/src/common/utils.py" />
-      <change beforePath="$PROJECT_DIR$/src/models/abouts/views.py" afterPath="$PROJECT_DIR$/src/models/abouts/views.py" />
-      <change beforePath="$PROJECT_DIR$/src/models/blogs/blog.py" afterPath="$PROJECT_DIR$/src/models/blogs/blog.py" />
-      <change beforePath="$PROJECT_DIR$/src/models/blogs/views.py" afterPath="$PROJECT_DIR$/src/models/blogs/views.py" />
-      <change beforePath="$PROJECT_DIR$/src/models/users/errors.py" afterPath="$PROJECT_DIR$/src/models/users/errors.py" />
-      <change beforePath="$PROJECT_DIR$/src/models/users/user.py" afterPath="$PROJECT_DIR$/src/models/users/user.py" />
-      <change beforePath="$PROJECT_DIR$/src/models/users/views.py" afterPath="$PROJECT_DIR$/src/models/users/views.py" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/style.css" afterPath="$PROJECT_DIR$/src/static/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/src/templates/abouts/about.jinja2" afterPath="$PROJECT_DIR$/src/templates/abouts/about.jinja2" />
-      <change beforePath="$PROJECT_DIR$/src/templates/base.jinja2" afterPath="$PROJECT_DIR$/src/templates/base.jinja2" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blogs/register.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blogs/user_blogs.jinja2" afterPath="$PROJECT_DIR$/src/templates/blogs/user_blogs.jinja2" />
-      <change beforePath="$PROJECT_DIR$/src/templates/home.jinja2" afterPath="$PROJECT_DIR$/src/templates/home.jinja2" />
-      <change beforePath="$PROJECT_DIR$/src/templates/users/login.jinja2" afterPath="$PROJECT_DIR$/src/templates/users/login.jinja2" />
-      <change beforePath="$PROJECT_DIR$/src/templates/users/register.jinja2" afterPath="$PROJECT_DIR$/src/templates/users/register.jinja2" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/blogs/blog.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -113,22 +91,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_blog.jinja2" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/blogs/new_blog.jinja2">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.jinja2" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/blogs/posts.jinja2">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="190">
+              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+                <marker date="1518967063957" expanded="true" signature="0:90" ph="import ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -238,12 +219,12 @@
         <option value="$PROJECT_DIR$/src/templates/abouts/about.jinja2" />
         <option value="$PROJECT_DIR$/src/models/abouts/views.py" />
         <option value="$PROJECT_DIR$/src/templates/home.jinja2" />
-        <option value="$PROJECT_DIR$/src/app.py" />
         <option value="$PROJECT_DIR$/src/models/blogs/views.py" />
         <option value="$PROJECT_DIR$/src/models/users/user.py" />
         <option value="$PROJECT_DIR$/src/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/templates/blogs/user_blogs.jinja2" />
         <option value="$PROJECT_DIR$/src/models/blogs/blog.py" />
+        <option value="$PROJECT_DIR$/src/app.py" />
       </list>
     </option>
   </component>
@@ -903,14 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/home.jinja2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -925,17 +898,6 @@
           <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
           <folding>
             <element signature="e#0#87#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <marker date="1518960451185" expanded="false" signature="0:90" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -1025,6 +987,25 @@
         <state relative-caret-position="133">
           <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <marker date="1518967063957" expanded="true" signature="0:90" ph="import ..." />
+          </folding>
         </state>
       </provider>
     </entry>

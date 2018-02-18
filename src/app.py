@@ -17,7 +17,7 @@ def init_db():
 
 @app.route('/home')
 def home():
-    if session['email']:
+    if session.get('email') and session['email']:
         user = User.find_by_email(session['email'])
         name = user.user_name
     else:
