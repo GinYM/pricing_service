@@ -24,13 +24,16 @@ def index():
     else:
         email = config.ADMIN_EMAIL
 
-
     user = User.find_by_email(email)
+    name = user.user_name
     if user is None:
         return render_template('users/login.jinja2')
     else:
         blogs = Blog.find_by_author_id(user._id)
-        return render_template('blogs/user_blogs.jinja2', email=email, blogs=blogs)
+        for binding_email in user.binding :
+            user_binding = User.find_by_email(binding_email)
+            blogs = blogs+Blog.find_by_author_id(user_binding._id)
+        return render_template('blogs/user_blogs.jinja2', name=name, blogs=blogs)
 
 
 @blogs_blueprint.route('/new',methods=['GET','POST'])

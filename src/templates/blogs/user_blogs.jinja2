@@ -2,7 +2,7 @@
 {% block content %}
     <div class="container user_blog_form">
         <h1>
-            <span><strong>{{ email }}</strong>'s Blog</span>
+            <span><strong>{{ name }}</strong>'s Blog</span>
             {% if session['email'] %}
                 <div class="pull-right">
                     <span><a class="btn btn-primary" href="{{ url_for('blogs.new_blog') }}" role="button">New</a></span>
@@ -15,14 +15,19 @@
             {% if blog.secret %}
                 {% if session['email'] %}
 
-                    <h2><a href="{{ url_for('blogs.posts',blog_id=blog._id) }}">{{ blog.title }}</a> </h2>
+                    <h2><a href="{{ url_for('blogs.posts',blog_id=blog._id) }}">{{ blog.title }}</a>
+                        <div class="pull-right">
+                        {{ blog.author }} </div></h2>
                     <p>{{ blog.description }}</p>
                     <hr/>
 
                 {% endif %}
 
             {% else %}
-                <h2><a href="{{ url_for('blogs.posts',blog_id=blog._id) }}">{{ blog.title }}</a></h2>
+                <h2><a href="{{ url_for('blogs.posts',blog_id=blog._id) }}">{{ blog.title }}</a>
+
+                    <div class="pull-right">
+                        {{ blog.author }} </div></h2>
                 <p>{{ blog.description }}</p>
                 <hr/>
             {% endif %}

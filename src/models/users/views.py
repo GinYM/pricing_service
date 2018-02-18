@@ -28,9 +28,10 @@ def register_user():
     if request.method == 'POST':
         email = request.form['email']
         password = request.form['password']
+        user_name = request.form['user_name']
 
         try:
-            if User.register_user(email, password):
+            if User.register_user(user_name,email, password):
                 session['email'] = email
                 return redirect(url_for("blogs.index"))
         except UserErrors.UserError as e:

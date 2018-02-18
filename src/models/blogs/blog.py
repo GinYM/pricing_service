@@ -8,14 +8,14 @@ from src.common.database import Database
 import src.models.blogs.constants as BlogsConstant
 
 class Blog(object):
-    def __init__(self, author, title, description, author_id,  _id=None, secret=0, date=datetime.datetime.utcnow()):
+    def __init__(self, author, title, description, author_id,  _id=None, secret=0, date=None):
         self.author = author
         self.title = title
         self.description = description
         self.author_id = author_id
         self._id = uuid.uuid4().hex if _id is None else _id
         self.secret = secret
-        self.date = date
+        self.date = datetime.datetime.utcnow() if date is None else date
 
     def new_post(self,title, content, date=datetime.datetime.utcnow()):
         post = Post(blog_id=self._id,

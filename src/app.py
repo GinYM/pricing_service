@@ -1,5 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, session
 from src.common.database import Database
+from src.models.users.user import User
 
 app = Flask(__name__)
 app.config.from_object('src.config')
@@ -16,7 +17,12 @@ def init_db():
 
 @app.route('/home')
 def home():
-    return render_template('home.jinja2')
+    if session['email']:
+        user = User.find_by_email(session['email'])
+        name = user.user_name
+    else:
+        name = "Yiming"
+    return render_template('home.jinja2', name=name)
 
 
 @app.route('/')
@@ -31,6 +37,7 @@ from src.models.stores.views import store_blueprint
 from src.models.abouts.views import about_blueprint
 from src.models.projects.views import projects_blueprint
 from src.models.blogs.views import blogs_blueprint
+from src.models.profiles.views import profile_blueprint
 
 app.register_blueprint(user_blueprint, url_prefix="/users")
 app.register_blueprint(alert_blueprint, url_prefix="/alerts")
@@ -38,3 +45,4 @@ app.register_blueprint(store_blueprint, url_prefix="/stores")
 app.register_blueprint(about_blueprint, url_prefix="/abouts")
 app.register_blueprint(projects_blueprint, url_prefix="/projects")
 app.register_blueprint(blogs_blueprint, url_prefix="/blogs")
+app.register_blueprint(profile_blueprint, url_prefix="/profiles")

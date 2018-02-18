@@ -1,0 +1,11 @@
+{% extends "base.jinja2" %}
+{% block content %}
+    <form method="get">
+    <div class="form-group">
+        <p>Your password is incorrect!</p>
+        <span><a class="btn btn-primary" href="{{ url_for('profiles.index') }}" role="button">Return</a></span>
+    </div>
+    </form>
+
+
+{% endblock %}

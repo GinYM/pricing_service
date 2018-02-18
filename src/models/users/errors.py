@@ -20,3 +20,6 @@ class InvalidEmailError(UserError):
 
 class InvalidPasswordError(UserError):
     pass
+
+class InvalidUserNameError(UserError):
+    pass

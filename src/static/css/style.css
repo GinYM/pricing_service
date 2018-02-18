@@ -9,6 +9,25 @@
     border-radius: 5px;
 }
 
+.first-form-profile{
+    padding: 20px 25px 0px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    font-size: 16px;
+    max-width: 1000px;
+}
+
+.second-form-profile{
+    padding: 0px 25px 30px;
+    margin: 0 auto 25px;
+    font-size: 16px;
+    max-width: 1000px;
+}
+
+.form-email-font-size{
+    font-size: 16px;
+}
+
 .card {
     background-color: #F7F7F7;
     /* just in case there no content*/
@@ -119,7 +138,9 @@
 }
 
 .form-signin #email,
-.form-signin #password {
+.form-signin #password,
+.form-signin #confirm_password,
+.form-signin #user_name{
     direction: ltr;
     height: 44px;
     font-size: 16px;
@@ -209,7 +230,16 @@ p {
 }
 
 .post-content p{
-    text-indent: 2em;
+
     font-size: 22px;
     line-height: 130%;
+}
+
+.second-form{
+    margin-top: 0px;
+}
+
+
+.blog_author{
+    text-align: right;
 }

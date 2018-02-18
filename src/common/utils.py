@@ -21,6 +21,11 @@ class Utils(object):
     def password_is_valid(password):
         if len(password)<6:
             return False
-
         password_address_matcher = re.compile(r'^[\w\.\!\@\#\$\%\^\&\*]+$')
         return True if password_address_matcher.match(password) else False
+
+    @staticmethod
+    def user_name_is_valid(user_name):
+        user_name_matcher = re.compile(r'^[\w\_]+$')
+        return True if user_name_matcher.match(user_name) else False
+
