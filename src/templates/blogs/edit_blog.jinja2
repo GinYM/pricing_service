@@ -12,7 +12,7 @@
             </div>
 
             <div class="checkbox">
-                <label><input type="checkbox" id="secret" name="secret"> Secret</label>
+                <label><input type="checkbox" id="secret" name="secret" {% if blog.secret %} checked {% endif %}> Secret</label>
             </div>
 
             <button type="submit" class="btn btn-dark" >Save</button>

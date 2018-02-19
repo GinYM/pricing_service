@@ -1,5 +1,6 @@
 {% extends "base.jinja2" %}
 {% block content %}
+    <script src="../../static/js/confirm.js"></script>
     <div class="container user_blog_form">
         <h1>
             <span><strong>{{ email }}</strong>'s Blog</span>
@@ -13,7 +14,7 @@
 
                     <div class="pull-right">
                         <span><a class="btn btn-warning" href="{{ url_for('blogs.edit_blog',blog_id=blog._id) }}" role="button">Edit</a></span>
-                        <span><a class="btn btn-danger" href="{{ url_for('blogs.delete_blogs',blog_id=blog._id) }}" role="button">Delete</a></span>
+                        <span><a class="btn btn-danger" onclick="delete_alert()" href="{{ url_for('blogs.delete_blogs',blog_id=blog._id) }}" role="button">Delete</a></span>
                     </div>
 
                     </h2>
@@ -36,7 +37,7 @@
 
                     <div class="pull-right">
                         <span><a class="btn btn-warning" href="{{ url_for('blogs.edit_blog',blog_id=blog._id) }}" role="button">Edit</a></span>
-                        <span><a class="btn btn-danger" href="{{ url_for('blogs.delete_blogs',blog_id=blog._id) }}" role="button">Delete</a></span>
+                        <span><a class="btn btn-danger" onclick="delete_alert()" href="{{ url_for('blogs.delete_blogs',blog_id=blog._id) }}" role="button">Delete</a></span>
                     </div>
 
                     </h2>
