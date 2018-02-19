@@ -3,7 +3,7 @@
 
     <script>
         function delete_alert(){
-            confirm("Are you sure to delete?");
+            return confirm("Are you sure to delete?");
         }
 
     </script>
@@ -39,7 +39,7 @@
                     </span>
 
                             <span class="span-button button-font" >
-                        <a onclick="delete_alert()"  href="{{ url_for('blogs.delete_post',post_id=post._id) }}" class="btn btn-danger post_button text-right">
+                        <a onclick="return delete_alert();"  href="{{ url_for('blogs.delete_post',post_id=post._id) }}" class="btn btn-danger post_button text-right">
                             Delete
                         </a>
                     </span>

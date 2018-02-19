@@ -1,3 +1,9 @@
 function delete_alert() {
-    confirm("Are you sure to delete?");
+    var x = confirm("Are you sure to delete?");
+    if(x){
+        return true;
+    }
+    else{
+        return false;
+    }
 }

@@ -21,7 +21,7 @@
 
                     <div class="pull-right">
                         <span><a class="btn btn-warning" href="{{ url_for('blogs.edit_blog',blog_id=blog._id) }}" role="button">Edit</a></span>
-                        <span><a class="btn btn-danger" onclick="delete_alert()" href="{{ url_for('blogs.delete_blogs',blog_id=blog._id) }}" role="button">Delete</a></span>
+                        <span><a class="btn btn-danger" onclick="return delete_alert();" href="{{ url_for('blogs.delete_blogs',blog_id=blog._id) }}" role="button">Delete</a></span>
                     </div>
 
                     </h2>
@@ -44,7 +44,7 @@
 
                     <div class="pull-right">
                         <span><a class="btn btn-warning" href="{{ url_for('blogs.edit_blog',blog_id=blog._id) }}" role="button">Edit</a></span>
-                        <span><a class="btn btn-danger" onclick="delete_alert()" href="{{ url_for('blogs.delete_blogs',blog_id=blog._id) }}" role="button">Delete</a></span>
+                        <span><a class="btn btn-danger" onclick="return delete_alert();" href="{{ url_for('blogs.delete_blogs',blog_id=blog._id) }}" role="button">Delete</a></span>
                     </div>
 
                     </h2>
