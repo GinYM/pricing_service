@@ -9,18 +9,13 @@
                 {% if session['email'] %}
                     <div class="pull-right">
                 <span class="span-button text-right">
-            <a href="{{ url_for('blogs.new_posts',blog_id=blog_id) }}" class="text-right">
-
-                    <button class="btn btn-primary post_button text-right">New</button>
-
+            <a href="{{ url_for('blogs.new_posts',blog_id=blog_id) }}" class="btn btn-primary post_button">
+                New
             </a>
                 </span>
-
                         <span class="span-button text-right">
-            <a href="{{ url_for('blogs.edit_posts',blog_id=blog_id) }}" class="text-right">
-
-                    <button class="btn btn-warning post_button text-right">Edit</button>
-
+            <a href="{{ url_for('blogs.edit_posts',blog_id=blog_id) }}" class="btn btn-warning post_button text-right">
+                Edit
             </a>
                 </span>
                     </div>

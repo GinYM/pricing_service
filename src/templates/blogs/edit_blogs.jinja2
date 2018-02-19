@@ -4,6 +4,13 @@
     <div class="container user_blog_form">
         <h1>
             <span><strong>{{ email }}</strong>'s Blog</span>
+            <div class="pull-right">
+                    <span class="span-button button-font" >
+                        <a href="{{ url_for('blogs.index') }}" class="btn btn-success post_button">
+                            Done
+                        </a>
+                    </span>
+                </div>
         </h1>
 
         {% for blog in blogs %}

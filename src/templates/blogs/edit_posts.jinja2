@@ -15,8 +15,8 @@
                 <span class="span-test">{{ blog_title }}</span>
                 <div class="pull-right">
                     <span class="span-button button-font" >
-                        <a href="{{ url_for('blogs.posts',blog_id=blog_id) }}" >
-                            <button class="btn btn-success post_button">Done</button>
+                        <a href="{{ url_for('blogs.posts',blog_id=blog_id) }}" class="btn btn-success post_button">
+                            Done
                         </a>
                     </span>
                 </div>
@@ -33,12 +33,10 @@
                         <div class="pull-right">
 
                     <span class="span-button button-font" >
-                        <a href="{{ url_for('blogs.edit_post',post_id=post._id) }}" >
-                            <button class="btn btn-warning post_button text-right ">Edit</button>
+                        <a href="{{ url_for('blogs.edit_post',post_id=post._id) }}" class="btn btn-warning post_button" >
+                            Edit
                         </a>
                     </span>
-
-
 
                             <span class="span-button button-font" >
                         <a onclick="delete_alert()"  href="{{ url_for('blogs.delete_post',post_id=post._id) }}" class="btn btn-danger post_button text-right">
