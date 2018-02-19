@@ -6,6 +6,8 @@
         <h2>
             <div>
                 <span class="span-test">{{ blog_title }}</span>
+                    <a href="{{ url_for('blogs.index') }}"><span class="glyphicon glyphicon-circle-arrow-left gi-halfx"></span></a>
+
                 {% if session['email'] %}
                     <div class="pull-right">
                 <span class="span-button text-right">
